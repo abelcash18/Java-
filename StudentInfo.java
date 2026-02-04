@@ -4,11 +4,11 @@ public class StudentInfo {
         String matricNumber = "202590006199GA";
         String faculty = "Computing";
         String department = "Computer Science";
-        String level = "200 Level";
+        String level = "200 Level Direct-Entry";
         
         System.out.println("========== STUDENT INFORMATION ==========");
         System.out.println("Name: " + name);
-        System.out.println("Matric Number: " + matricNumber);
+        System.out.println("Matric Number / Jamb-Reg: " + matricNumber);
         System.out.println("Faculty: " + faculty);
         System.out.println("Department: " + department);
         System.out.println("Level: " + level);
