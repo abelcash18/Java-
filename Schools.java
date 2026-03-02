@@ -1,5 +1,5 @@
 public class Schools {
-    private String principal;
+    public String principal;
     private String accountNo;
     private String phoneNo;
 
@@ -29,13 +29,13 @@ public class Schools {
 
     public static void main(String[] args) {
         Schools s = new Schools();
-        s.setPrincipal("Dr. Smith");
-        s.setAccountNo("12345");
-        s.setPhoneNo("555-1212");
+        s.setPrincipal("Mr. Abel");
+        s.setAccountNo("2096930863");
+        s.setPhoneNo("+234-90564-24816");
 
         System.out.println("Principal: " + s.getPrincipal());
-        System.out.println("Account: " + s.getAccountNo());
-        System.out.println("Phone: " + s.getPhoneNo());
+        System.out.println("AccountNo: " + s.getAccountNo());
+        System.out.println("PhoneNo: " + s.getPhoneNo());
     }
 }
 
