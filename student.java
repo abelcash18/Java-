@@ -23,5 +23,8 @@ public class student {
         student s = new student("Joseph Abel", "EDU2509276 ", "09056424816", 20);
         s.Greet();
         s.TakeExam();
+        
     }
+
+  
 }
