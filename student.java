@@ -2,11 +2,13 @@ public class student {
     public String Name;
     public String MatNo;
     public String Phone;
+    private int age;
     
-    public student(String name, String matNo, String phone) {
+    public student(String name, String matNo, String phone, int age) {
         this.Name = name;
         this.MatNo = matNo;
         this.Phone = phone;
+        this.age = age;
     }
     
     public void Greet() {
@@ -18,7 +20,7 @@ public class student {
     }
     
     public static void main(String[] args) {
-        student s = new student("Joseph Abel", "EDU2509276 ", "09056424816");
+        student s = new student("Joseph Abel", "EDU2509276 ", "09056424816", 20);
         s.Greet();
         s.TakeExam();
     }
