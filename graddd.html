@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Group 7 - Grade System</title>
+    <style>
+        body { font-family: Arial; text-align: center; margin-top: 50px; }
+        .box { border: 2px solid #000; padding: 20px; display: inline-block; }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>Assignment: Group 7</h1>
+        <p><strong>S/N:</strong><label for="text"><input type="text"></label></p>
+        <p><strong>Matric Number:</strong> <label for="text"><input type="text"></label></p>
+        <hr>
+        <button 
+
+onclick="calculateGrade()">Click to Enter Score</button>
+        <p id="display"></p>
+        <p>____________________<br>Signature</p>
+    </div>
+
+    <script>
+        function calculateGrade() {
+            let score = prompt("Enter Score (0-100):");
+            if (score === null) return; 
+            
+            score = parseFloat(score);
+            let grade;
+
+            if (score >= 70 && score <= 100) grade = 'A';
+            else if (score >= 60 && score <= 69) grade = 'B';
+
+            else if (score >= 50 && score <= 59) grade = 'C';
+            else if (score >= 46 && score <= 49) grade = 'D';
+            else if (score >= 40 && score <= 45) grade = 'E';
+            else if (score >= 0 && score <= 39) grade = 'F';
+            else grade = "Invalid";
+
+            document.getElementById("display").innerHTML = 
+                "<strong>Score:</strong> " + score + " | <strong>Grade:</strong> " + grade;
+        }
+    </script>
+</body>
+</html>
