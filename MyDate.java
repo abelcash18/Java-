@@ -42,7 +42,10 @@ public class MyDate {
       // else
         // sday = "/0" + date.getmonth()
 
-
+      //implicit  
+      System.out.println("hi" + (2+5));
+         System.out.println(2+7 + "hi" +( 2+5));
+        
 
 
         System.out.println("Start Day: " + date.getday() + "/0" + date.getmonth() + "/" + date.getyear());
