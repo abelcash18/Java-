@@ -1,0 +1,43 @@
+public class MyDate {
+    private int day;
+    private int month;
+    private int year;
+    
+    public int getday() {
+        return day;
+    }
+    
+    public int getmonth() {
+        return month;
+    }
+    
+    public int getyear() {
+        return year;
+    }
+    
+    public int setday(int day) {
+        this.day = day;
+        return day;
+    }
+    
+    public int setmonth(int month) {
+        this.month = month;
+        return month;
+    }
+    
+    public int setyear(int year) {
+        this.year = year;   
+        return year;
+    }
+    
+    public static void main(String[] args) {
+        MyDate date = new MyDate();
+        date.setday(25);
+        date.setmonth(5);
+        date.setyear(2026);
+        
+        System.out.println("Day: " + date.getday());
+        System.out.println("Month: " + date.getmonth());
+        System.out.println("Year: " + date.getyear());
+    }
+}
