@@ -36,8 +36,6 @@ public class MyDate {
         date.setmonth(5);
         date.setyear(2026);
         
-        System.out.println("Day: " + date.getday());
-        System.out.println("Month: " + date.getmonth());
-        System.out.println("Year: " + date.getyear());
+        System.out.println("Start Day: " + date.getday() + "/0" + date.getmonth() + "/" + date.getyear());
     }
 }
