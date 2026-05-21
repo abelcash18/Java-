@@ -35,7 +35,16 @@ public class MyDate {
         date.setday(25);
         date.setmonth(5);
         date.setyear(2026);
-        
+               
+      //String sday =null
+      // if (date.getmonth()> 9)
+      // Sday "/" + date.getmonth();
+      // else
+        // sday = "/0" + date.getmonth()
+
+
+
+
         System.out.println("Start Day: " + date.getday() + "/0" + date.getmonth() + "/" + date.getyear());
     }
 }
