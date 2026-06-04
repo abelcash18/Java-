@@ -4,6 +4,14 @@
 // boolean data type - true or false
 // primitive data type
 // non primitive data type
+// bedmas - brackets, exponents, division, multiplication, addition, subtraction
+// logical operator - &&, ||, !
+// relational operator - >, <, >=, <=, ==, !=
+//if statement - if, else if, else
+// switch statement - switch, case, default
+// loops - for, while, do while
+// implicit and explicit type casting
+// string concatenation - + operator
 
 
 public class thur {
