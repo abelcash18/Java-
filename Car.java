@@ -30,5 +30,10 @@ public class Car {
     public String toString() {
         return "Car{" + "brand='" + brand + '\'' + ", year=" + year + '}';
     }
+
+    public static void main(String[] args) {
+        Car c = new Car("Toyota", 2020);
+        System.out.println(c);
+    }
 }
 
